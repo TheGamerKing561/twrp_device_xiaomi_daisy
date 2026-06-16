@@ -14,11 +14,6 @@
 # limitations under the License.
 #
 
-# Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
-
-$(call inherit-product, build/target/product/embedded.mk)
-
 # Inherit from device configuration
 $(call inherit-product, device/xiaomi/daisy/device.mk)
 
